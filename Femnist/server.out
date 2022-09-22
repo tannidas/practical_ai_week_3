@@ -1,0 +1,513 @@
+nohup: ignoring input
+INFO flower 2022-09-22 10:11:23,508 | app.py:119 | Starting Flower server, config: ServerConfig(num_rounds=100, round_timeout=None)
+INFO flower 2022-09-22 10:11:23,511 | app.py:132 | Flower ECE: gRPC server running (100 rounds), SSL is disabled
+INFO flower 2022-09-22 10:11:23,511 | server.py:86 | Initializing global parameters
+INFO flower 2022-09-22 10:11:23,511 | server.py:270 | Requesting initial parameters from one random client
+INFO flower 2022-09-22 10:11:39,061 | server.py:274 | Received initial parameters from one random client
+INFO flower 2022-09-22 10:11:39,061 | server.py:88 | Evaluating initial parameters
+INFO flower 2022-09-22 10:11:39,061 | server.py:101 | FL starting
+DEBUG flower 2022-09-22 10:11:39,061 | server.py:215 | fit_round 1: strategy sampled 2 clients (out of 2)
+DEBUG flower 2022-09-22 10:11:41,409 | server.py:229 | fit_round 1 received 0 results and 2 failures
+DEBUG flower 2022-09-22 10:12:13,911 | server.py:165 | evaluate_round 1: strategy sampled 1 clients (out of 1)
+DEBUG flower 2022-09-22 10:12:15,379 | server.py:179 | evaluate_round 1 received 1 results and 0 failures
+accuracy : 0.05263157894736842
+DEBUG flower 2022-09-22 10:12:15,379 | server.py:215 | fit_round 2: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:17,489 | server.py:229 | fit_round 2 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:12:17,543 | server.py:165 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:19,886 | server.py:179 | evaluate_round 2 received 3 results and 0 failures
+accuracy : 0.010752688172043012
+DEBUG flower 2022-09-22 10:12:19,887 | server.py:215 | fit_round 3: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:23,532 | server.py:229 | fit_round 3 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:12:23,568 | server.py:165 | evaluate_round 3: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:26,624 | server.py:179 | evaluate_round 3 received 3 results and 0 failures
+accuracy : 0.05555555555555555
+DEBUG flower 2022-09-22 10:12:26,624 | server.py:215 | fit_round 4: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:29,546 | server.py:229 | fit_round 4 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:12:29,587 | server.py:165 | evaluate_round 4: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:31,058 | server.py:179 | evaluate_round 4 received 3 results and 0 failures
+accuracy : 0.0
+DEBUG flower 2022-09-22 10:12:31,058 | server.py:215 | fit_round 5: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:34,441 | server.py:229 | fit_round 5 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:12:34,481 | server.py:165 | evaluate_round 5: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:35,956 | server.py:179 | evaluate_round 5 received 3 results and 0 failures
+accuracy : 0.07272727272727272
+DEBUG flower 2022-09-22 10:12:35,956 | server.py:215 | fit_round 6: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:38,880 | server.py:229 | fit_round 6 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:12:38,935 | server.py:165 | evaluate_round 6: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:41,159 | server.py:179 | evaluate_round 6 received 3 results and 0 failures
+accuracy : 0.09433962264150944
+DEBUG flower 2022-09-22 10:12:41,159 | server.py:215 | fit_round 7: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:44,485 | server.py:229 | fit_round 7 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:12:44,541 | server.py:165 | evaluate_round 7: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:46,574 | server.py:179 | evaluate_round 7 received 3 results and 0 failures
+accuracy : 0.078125
+DEBUG flower 2022-09-22 10:12:46,574 | server.py:215 | fit_round 8: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:49,490 | server.py:229 | fit_round 8 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:12:49,533 | server.py:165 | evaluate_round 8: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:52,258 | server.py:179 | evaluate_round 8 received 3 results and 0 failures
+accuracy : 0.05063291139240506
+DEBUG flower 2022-09-22 10:12:52,258 | server.py:215 | fit_round 9: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:55,727 | server.py:229 | fit_round 9 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:12:55,763 | server.py:165 | evaluate_round 9: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:12:58,356 | server.py:179 | evaluate_round 9 received 3 results and 0 failures
+accuracy : 0.06741573033707865
+DEBUG flower 2022-09-22 10:12:58,357 | server.py:215 | fit_round 10: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:01,490 | server.py:229 | fit_round 10 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:01,536 | server.py:165 | evaluate_round 10: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:04,189 | server.py:179 | evaluate_round 10 received 3 results and 0 failures
+accuracy : 0.056179775280898875
+DEBUG flower 2022-09-22 10:13:04,190 | server.py:215 | fit_round 11: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:07,454 | server.py:229 | fit_round 11 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:07,498 | server.py:165 | evaluate_round 11: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:09,649 | server.py:179 | evaluate_round 11 received 3 results and 0 failures
+accuracy : 0.09859154929577464
+DEBUG flower 2022-09-22 10:13:09,653 | server.py:215 | fit_round 12: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:12,348 | server.py:229 | fit_round 12 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:12,391 | server.py:165 | evaluate_round 12: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:15,107 | server.py:179 | evaluate_round 12 received 3 results and 0 failures
+accuracy : 0.08139534883720931
+DEBUG flower 2022-09-22 10:13:15,111 | server.py:215 | fit_round 13: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:18,853 | server.py:229 | fit_round 13 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:18,905 | server.py:165 | evaluate_round 13: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:21,377 | server.py:179 | evaluate_round 13 received 3 results and 0 failures
+accuracy : 0.07407407407407407
+DEBUG flower 2022-09-22 10:13:21,377 | server.py:215 | fit_round 14: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:24,638 | server.py:229 | fit_round 14 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:24,688 | server.py:165 | evaluate_round 14: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:27,321 | server.py:179 | evaluate_round 14 received 3 results and 0 failures
+accuracy : 0.028985507246376812
+DEBUG flower 2022-09-22 10:13:27,322 | server.py:215 | fit_round 15: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:30,242 | server.py:229 | fit_round 15 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:30,286 | server.py:165 | evaluate_round 15: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:32,976 | server.py:179 | evaluate_round 15 received 3 results and 0 failures
+accuracy : 0.0
+DEBUG flower 2022-09-22 10:13:32,976 | server.py:215 | fit_round 16: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:36,133 | server.py:229 | fit_round 16 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:36,180 | server.py:165 | evaluate_round 16: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:38,988 | server.py:179 | evaluate_round 16 received 3 results and 0 failures
+accuracy : 0.02197802197802198
+DEBUG flower 2022-09-22 10:13:38,988 | server.py:215 | fit_round 17: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:42,292 | server.py:229 | fit_round 17 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:42,329 | server.py:165 | evaluate_round 17: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:44,395 | server.py:179 | evaluate_round 17 received 3 results and 0 failures
+accuracy : 0.0625
+DEBUG flower 2022-09-22 10:13:44,396 | server.py:215 | fit_round 18: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:47,701 | server.py:229 | fit_round 18 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:47,745 | server.py:165 | evaluate_round 18: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:50,607 | server.py:179 | evaluate_round 18 received 3 results and 0 failures
+accuracy : 0.05319148936170213
+DEBUG flower 2022-09-22 10:13:50,607 | server.py:215 | fit_round 19: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:52,479 | server.py:229 | fit_round 19 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:52,515 | server.py:165 | evaluate_round 19: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:54,681 | server.py:179 | evaluate_round 19 received 3 results and 0 failures
+accuracy : 0.06153846153846154
+DEBUG flower 2022-09-22 10:13:54,682 | server.py:215 | fit_round 20: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:57,823 | server.py:229 | fit_round 20 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:13:57,858 | server.py:165 | evaluate_round 20: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:13:59,198 | server.py:179 | evaluate_round 20 received 3 results and 0 failures
+accuracy : 0.10638297872340426
+DEBUG flower 2022-09-22 10:13:59,198 | server.py:215 | fit_round 21: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:01,717 | server.py:229 | fit_round 21 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:01,756 | server.py:165 | evaluate_round 21: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:03,183 | server.py:179 | evaluate_round 21 received 3 results and 0 failures
+accuracy : 0.14
+DEBUG flower 2022-09-22 10:14:03,187 | server.py:215 | fit_round 22: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:06,795 | server.py:229 | fit_round 22 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:06,846 | server.py:165 | evaluate_round 22: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:09,641 | server.py:179 | evaluate_round 22 received 3 results and 0 failures
+accuracy : 0.0
+DEBUG flower 2022-09-22 10:14:09,641 | server.py:215 | fit_round 23: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:13,188 | server.py:229 | fit_round 23 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:13,229 | server.py:165 | evaluate_round 23: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:14,679 | server.py:179 | evaluate_round 23 received 3 results and 0 failures
+accuracy : 0.0
+DEBUG flower 2022-09-22 10:14:14,682 | server.py:215 | fit_round 24: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:17,849 | server.py:229 | fit_round 24 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:17,889 | server.py:165 | evaluate_round 24: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:19,883 | server.py:179 | evaluate_round 24 received 3 results and 0 failures
+accuracy : 0.08450704225352113
+DEBUG flower 2022-09-22 10:14:19,886 | server.py:215 | fit_round 25: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:23,363 | server.py:229 | fit_round 25 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:23,403 | server.py:165 | evaluate_round 25: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:25,983 | server.py:179 | evaluate_round 25 received 3 results and 0 failures
+accuracy : 0.058823529411764705
+DEBUG flower 2022-09-22 10:14:25,983 | server.py:215 | fit_round 26: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:29,281 | server.py:229 | fit_round 26 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:29,328 | server.py:165 | evaluate_round 26: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:32,104 | server.py:179 | evaluate_round 26 received 3 results and 0 failures
+accuracy : 0.02666666666666667
+DEBUG flower 2022-09-22 10:14:32,105 | server.py:215 | fit_round 27: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:35,618 | server.py:229 | fit_round 27 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:35,654 | server.py:165 | evaluate_round 27: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:37,757 | server.py:179 | evaluate_round 27 received 3 results and 0 failures
+accuracy : 0.0945945945945946
+DEBUG flower 2022-09-22 10:14:37,757 | server.py:215 | fit_round 28: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:41,374 | server.py:229 | fit_round 28 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:41,412 | server.py:165 | evaluate_round 28: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:42,870 | server.py:179 | evaluate_round 28 received 3 results and 0 failures
+accuracy : 0.0196078431372549
+DEBUG flower 2022-09-22 10:14:42,870 | server.py:215 | fit_round 29: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:46,188 | server.py:229 | fit_round 29 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:46,226 | server.py:165 | evaluate_round 29: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:48,806 | server.py:179 | evaluate_round 29 received 3 results and 0 failures
+accuracy : 0.02857142857142857
+DEBUG flower 2022-09-22 10:14:48,806 | server.py:215 | fit_round 30: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:52,072 | server.py:229 | fit_round 30 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:52,109 | server.py:165 | evaluate_round 30: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:54,772 | server.py:179 | evaluate_round 30 received 3 results and 0 failures
+accuracy : 0.011235955056179775
+DEBUG flower 2022-09-22 10:14:54,773 | server.py:215 | fit_round 31: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:57,599 | server.py:229 | fit_round 31 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:14:57,635 | server.py:165 | evaluate_round 31: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:14:59,739 | server.py:179 | evaluate_round 31 received 3 results and 0 failures
+accuracy : 0.08196721311475409
+DEBUG flower 2022-09-22 10:14:59,740 | server.py:215 | fit_round 32: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:03,391 | server.py:229 | fit_round 32 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:03,430 | server.py:165 | evaluate_round 32: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:05,631 | server.py:179 | evaluate_round 32 received 3 results and 0 failures
+accuracy : 0.05263157894736842
+DEBUG flower 2022-09-22 10:15:05,631 | server.py:215 | fit_round 33: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:08,952 | server.py:229 | fit_round 33 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:08,987 | server.py:165 | evaluate_round 33: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:11,225 | server.py:179 | evaluate_round 33 received 3 results and 0 failures
+accuracy : 0.0196078431372549
+DEBUG flower 2022-09-22 10:15:11,226 | server.py:215 | fit_round 34: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:13,669 | server.py:229 | fit_round 34 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:13,704 | server.py:165 | evaluate_round 34: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:15,130 | server.py:179 | evaluate_round 34 received 3 results and 0 failures
+accuracy : 0.10638297872340426
+DEBUG flower 2022-09-22 10:15:15,131 | server.py:215 | fit_round 35: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:18,237 | server.py:229 | fit_round 35 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:18,282 | server.py:165 | evaluate_round 35: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:20,968 | server.py:179 | evaluate_round 35 received 3 results and 0 failures
+accuracy : 0.0410958904109589
+DEBUG flower 2022-09-22 10:15:20,968 | server.py:215 | fit_round 36: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:23,870 | server.py:229 | fit_round 36 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:23,906 | server.py:165 | evaluate_round 36: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:26,443 | server.py:179 | evaluate_round 36 received 3 results and 0 failures
+accuracy : 0.05555555555555555
+DEBUG flower 2022-09-22 10:15:26,443 | server.py:215 | fit_round 37: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:29,959 | server.py:229 | fit_round 37 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:29,996 | server.py:165 | evaluate_round 37: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:32,024 | server.py:179 | evaluate_round 37 received 3 results and 0 failures
+accuracy : 0.05454545454545454
+DEBUG flower 2022-09-22 10:15:32,027 | server.py:215 | fit_round 38: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:35,589 | server.py:229 | fit_round 38 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:35,629 | server.py:165 | evaluate_round 38: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:38,463 | server.py:179 | evaluate_round 38 received 3 results and 0 failures
+accuracy : 0.045454545454545456
+DEBUG flower 2022-09-22 10:15:38,463 | server.py:215 | fit_round 39: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:41,742 | server.py:229 | fit_round 39 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:41,786 | server.py:165 | evaluate_round 39: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:43,180 | server.py:179 | evaluate_round 39 received 3 results and 0 failures
+accuracy : 0.0
+DEBUG flower 2022-09-22 10:15:43,180 | server.py:215 | fit_round 40: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:46,652 | server.py:229 | fit_round 40 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:46,686 | server.py:165 | evaluate_round 40: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:48,153 | server.py:179 | evaluate_round 40 received 3 results and 0 failures
+accuracy : 0.07547169811320754
+DEBUG flower 2022-09-22 10:15:48,153 | server.py:215 | fit_round 41: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:49,984 | server.py:229 | fit_round 41 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:50,020 | server.py:165 | evaluate_round 41: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:52,729 | server.py:179 | evaluate_round 41 received 3 results and 0 failures
+accuracy : 0.04477611940298507
+DEBUG flower 2022-09-22 10:15:52,729 | server.py:215 | fit_round 42: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:55,884 | server.py:229 | fit_round 42 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:55,923 | server.py:165 | evaluate_round 42: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:57,301 | server.py:179 | evaluate_round 42 received 3 results and 0 failures
+accuracy : 0.12
+DEBUG flower 2022-09-22 10:15:57,301 | server.py:215 | fit_round 43: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:15:59,103 | server.py:229 | fit_round 43 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:15:59,147 | server.py:165 | evaluate_round 43: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:01,608 | server.py:179 | evaluate_round 43 received 3 results and 0 failures
+accuracy : 0.014285714285714285
+DEBUG flower 2022-09-22 10:16:01,608 | server.py:215 | fit_round 44: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:04,990 | server.py:229 | fit_round 44 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:05,026 | server.py:165 | evaluate_round 44: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:07,124 | server.py:179 | evaluate_round 44 received 3 results and 0 failures
+accuracy : 0.014925373134328358
+DEBUG flower 2022-09-22 10:16:07,124 | server.py:215 | fit_round 45: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:10,284 | server.py:229 | fit_round 45 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:10,322 | server.py:165 | evaluate_round 45: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:12,836 | server.py:179 | evaluate_round 45 received 3 results and 0 failures
+accuracy : 0.1044776119402985
+DEBUG flower 2022-09-22 10:16:12,837 | server.py:215 | fit_round 46: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:16,384 | server.py:229 | fit_round 46 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:16,418 | server.py:165 | evaluate_round 46: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:19,093 | server.py:179 | evaluate_round 46 received 3 results and 0 failures
+accuracy : 0.0410958904109589
+DEBUG flower 2022-09-22 10:16:19,094 | server.py:215 | fit_round 47: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:20,926 | server.py:229 | fit_round 47 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:20,961 | server.py:165 | evaluate_round 47: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:23,058 | server.py:179 | evaluate_round 47 received 3 results and 0 failures
+accuracy : 0.04225352112676056
+DEBUG flower 2022-09-22 10:16:23,059 | server.py:215 | fit_round 48: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:26,336 | server.py:229 | fit_round 48 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:26,374 | server.py:165 | evaluate_round 48: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:28,797 | server.py:179 | evaluate_round 48 received 3 results and 0 failures
+accuracy : 0.09090909090909091
+DEBUG flower 2022-09-22 10:16:28,798 | server.py:215 | fit_round 49: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:32,207 | server.py:229 | fit_round 49 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:32,246 | server.py:165 | evaluate_round 49: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:34,937 | server.py:179 | evaluate_round 49 received 3 results and 0 failures
+accuracy : 0.0
+DEBUG flower 2022-09-22 10:16:34,937 | server.py:215 | fit_round 50: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:37,891 | server.py:229 | fit_round 50 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:37,925 | server.py:165 | evaluate_round 50: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:40,034 | server.py:179 | evaluate_round 50 received 3 results and 0 failures
+accuracy : 0.0625
+DEBUG flower 2022-09-22 10:16:40,035 | server.py:215 | fit_round 51: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:42,047 | server.py:229 | fit_round 51 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:42,088 | server.py:165 | evaluate_round 51: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:43,544 | server.py:179 | evaluate_round 51 received 3 results and 0 failures
+accuracy : 0.058823529411764705
+DEBUG flower 2022-09-22 10:16:43,545 | server.py:215 | fit_round 52: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:46,408 | server.py:229 | fit_round 52 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:46,441 | server.py:165 | evaluate_round 52: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:49,119 | server.py:179 | evaluate_round 52 received 3 results and 0 failures
+accuracy : 0.03571428571428571
+DEBUG flower 2022-09-22 10:16:49,119 | server.py:215 | fit_round 53: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:51,959 | server.py:229 | fit_round 53 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:51,993 | server.py:165 | evaluate_round 53: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:54,720 | server.py:179 | evaluate_round 53 received 3 results and 0 failures
+accuracy : 0.10144927536231885
+DEBUG flower 2022-09-22 10:16:54,720 | server.py:215 | fit_round 54: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:16:58,232 | server.py:229 | fit_round 54 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:16:58,266 | server.py:165 | evaluate_round 54: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:01,136 | server.py:179 | evaluate_round 54 received 3 results and 0 failures
+accuracy : 0.03125
+DEBUG flower 2022-09-22 10:17:01,136 | server.py:215 | fit_round 55: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:04,319 | server.py:229 | fit_round 55 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:17:04,353 | server.py:165 | evaluate_round 55: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:07,077 | server.py:179 | evaluate_round 55 received 3 results and 0 failures
+accuracy : 0.10606060606060606
+DEBUG flower 2022-09-22 10:17:07,077 | server.py:215 | fit_round 56: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:10,593 | server.py:229 | fit_round 56 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:17:10,630 | server.py:165 | evaluate_round 56: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:13,476 | server.py:179 | evaluate_round 56 received 3 results and 0 failures
+accuracy : 0.04950495049504951
+DEBUG flower 2022-09-22 10:17:13,476 | server.py:215 | fit_round 57: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:16,743 | server.py:229 | fit_round 57 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:17:16,778 | server.py:165 | evaluate_round 57: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:19,180 | server.py:179 | evaluate_round 57 received 3 results and 0 failures
+accuracy : 0.03773584905660377
+DEBUG flower 2022-09-22 10:17:19,181 | server.py:215 | fit_round 58: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:22,689 | server.py:229 | fit_round 58 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:17:22,724 | server.py:165 | evaluate_round 58: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:25,253 | server.py:179 | evaluate_round 58 received 3 results and 0 failures
+accuracy : 0.04
+DEBUG flower 2022-09-22 10:17:25,253 | server.py:215 | fit_round 59: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:28,727 | server.py:229 | fit_round 59 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:17:28,763 | server.py:165 | evaluate_round 59: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:30,936 | server.py:179 | evaluate_round 59 received 3 results and 0 failures
+accuracy : 0.029850746268656716
+DEBUG flower 2022-09-22 10:17:30,939 | server.py:215 | fit_round 60: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:34,332 | server.py:229 | fit_round 60 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:17:34,369 | server.py:165 | evaluate_round 60: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:36,680 | server.py:179 | evaluate_round 60 received 3 results and 0 failures
+accuracy : 0.08695652173913043
+DEBUG flower 2022-09-22 10:17:36,681 | server.py:215 | fit_round 61: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:39,249 | server.py:229 | fit_round 61 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:17:39,284 | server.py:165 | evaluate_round 61: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:41,859 | server.py:179 | evaluate_round 61 received 3 results and 0 failures
+accuracy : 0.09195402298850575
+DEBUG flower 2022-09-22 10:17:41,862 | server.py:215 | fit_round 62: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:45,107 | server.py:229 | fit_round 62 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:17:45,142 | server.py:165 | evaluate_round 62: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:47,664 | server.py:179 | evaluate_round 62 received 3 results and 0 failures
+accuracy : 0.017241379310344827
+DEBUG flower 2022-09-22 10:17:47,664 | server.py:215 | fit_round 63: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:50,853 | server.py:229 | fit_round 63 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:17:50,887 | server.py:165 | evaluate_round 63: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:53,642 | server.py:179 | evaluate_round 63 received 3 results and 0 failures
+accuracy : 0.09210526315789473
+DEBUG flower 2022-09-22 10:17:53,642 | server.py:215 | fit_round 64: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:56,477 | server.py:229 | fit_round 64 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:17:56,518 | server.py:165 | evaluate_round 64: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:17:59,083 | server.py:179 | evaluate_round 64 received 3 results and 0 failures
+accuracy : 0.078125
+DEBUG flower 2022-09-22 10:17:59,087 | server.py:215 | fit_round 65: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:01,679 | server.py:229 | fit_round 65 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:01,715 | server.py:165 | evaluate_round 65: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:03,824 | server.py:179 | evaluate_round 65 received 3 results and 0 failures
+accuracy : 0.18
+DEBUG flower 2022-09-22 10:18:03,824 | server.py:215 | fit_round 66: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:06,970 | server.py:229 | fit_round 66 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:07,007 | server.py:165 | evaluate_round 66: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:09,758 | server.py:179 | evaluate_round 66 received 3 results and 0 failures
+accuracy : 0.030927835051546393
+DEBUG flower 2022-09-22 10:18:09,758 | server.py:215 | fit_round 67: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:12,421 | server.py:229 | fit_round 67 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:12,458 | server.py:165 | evaluate_round 67: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:15,343 | server.py:179 | evaluate_round 67 received 3 results and 0 failures
+accuracy : 0.041237113402061855
+DEBUG flower 2022-09-22 10:18:15,343 | server.py:215 | fit_round 68: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:18,034 | server.py:229 | fit_round 68 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:18,070 | server.py:165 | evaluate_round 68: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:20,303 | server.py:179 | evaluate_round 68 received 3 results and 0 failures
+accuracy : 0.04477611940298507
+DEBUG flower 2022-09-22 10:18:20,303 | server.py:215 | fit_round 69: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:23,784 | server.py:229 | fit_round 69 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:23,822 | server.py:165 | evaluate_round 69: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:26,039 | server.py:179 | evaluate_round 69 received 3 results and 0 failures
+accuracy : 0.05970149253731343
+DEBUG flower 2022-09-22 10:18:26,039 | server.py:215 | fit_round 70: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:29,267 | server.py:229 | fit_round 70 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:29,303 | server.py:165 | evaluate_round 70: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:32,026 | server.py:179 | evaluate_round 70 received 3 results and 0 failures
+accuracy : 0.05952380952380952
+DEBUG flower 2022-09-22 10:18:32,027 | server.py:215 | fit_round 71: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:35,494 | server.py:229 | fit_round 71 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:35,535 | server.py:165 | evaluate_round 71: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:37,856 | server.py:179 | evaluate_round 71 received 3 results and 0 failures
+accuracy : 0.029850746268656716
+DEBUG flower 2022-09-22 10:18:37,856 | server.py:215 | fit_round 72: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:39,678 | server.py:229 | fit_round 72 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:39,719 | server.py:165 | evaluate_round 72: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:42,460 | server.py:179 | evaluate_round 72 received 3 results and 0 failures
+accuracy : 0.03529411764705882
+DEBUG flower 2022-09-22 10:18:42,460 | server.py:215 | fit_round 73: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:46,075 | server.py:229 | fit_round 73 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:46,110 | server.py:165 | evaluate_round 73: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:48,534 | server.py:179 | evaluate_round 73 received 3 results and 0 failures
+accuracy : 0.02631578947368421
+DEBUG flower 2022-09-22 10:18:48,535 | server.py:215 | fit_round 74: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:50,478 | server.py:229 | fit_round 74 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:50,518 | server.py:165 | evaluate_round 74: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:53,470 | server.py:179 | evaluate_round 74 received 3 results and 0 failures
+accuracy : 0.09523809523809523
+DEBUG flower 2022-09-22 10:18:53,470 | server.py:215 | fit_round 75: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:55,508 | server.py:229 | fit_round 75 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:18:55,542 | server.py:165 | evaluate_round 75: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:18:58,448 | server.py:179 | evaluate_round 75 received 3 results and 0 failures
+accuracy : 0.06153846153846154
+DEBUG flower 2022-09-22 10:18:58,449 | server.py:215 | fit_round 76: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:01,915 | server.py:229 | fit_round 76 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:01,951 | server.py:165 | evaluate_round 76: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:04,906 | server.py:179 | evaluate_round 76 received 3 results and 0 failures
+accuracy : 0.04040404040404041
+DEBUG flower 2022-09-22 10:19:04,906 | server.py:215 | fit_round 77: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:08,285 | server.py:229 | fit_round 77 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:08,321 | server.py:165 | evaluate_round 77: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:11,225 | server.py:179 | evaluate_round 77 received 3 results and 0 failures
+accuracy : 0.04477611940298507
+DEBUG flower 2022-09-22 10:19:11,225 | server.py:215 | fit_round 78: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:13,934 | server.py:229 | fit_round 78 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:13,975 | server.py:165 | evaluate_round 78: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:16,784 | server.py:179 | evaluate_round 78 received 3 results and 0 failures
+accuracy : 0.1232876712328767
+DEBUG flower 2022-09-22 10:19:16,784 | server.py:215 | fit_round 79: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:20,279 | server.py:229 | fit_round 79 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:20,321 | server.py:165 | evaluate_round 79: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:22,858 | server.py:179 | evaluate_round 79 received 3 results and 0 failures
+accuracy : 0.04225352112676056
+DEBUG flower 2022-09-22 10:19:22,858 | server.py:215 | fit_round 80: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:26,325 | server.py:229 | fit_round 80 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:26,363 | server.py:165 | evaluate_round 80: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:28,429 | server.py:179 | evaluate_round 80 received 3 results and 0 failures
+accuracy : 0.08333333333333333
+DEBUG flower 2022-09-22 10:19:28,429 | server.py:215 | fit_round 81: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:31,819 | server.py:229 | fit_round 81 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:31,856 | server.py:165 | evaluate_round 81: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:34,804 | server.py:179 | evaluate_round 81 received 3 results and 0 failures
+accuracy : 0.03076923076923077
+DEBUG flower 2022-09-22 10:19:34,805 | server.py:215 | fit_round 82: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:36,820 | server.py:229 | fit_round 82 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:36,862 | server.py:165 | evaluate_round 82: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:39,769 | server.py:179 | evaluate_round 82 received 3 results and 0 failures
+accuracy : 0.011904761904761904
+DEBUG flower 2022-09-22 10:19:39,770 | server.py:215 | fit_round 83: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:42,775 | server.py:229 | fit_round 83 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:42,810 | server.py:165 | evaluate_round 83: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:45,508 | server.py:179 | evaluate_round 83 received 3 results and 0 failures
+accuracy : 0.0
+DEBUG flower 2022-09-22 10:19:45,508 | server.py:215 | fit_round 84: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:48,906 | server.py:229 | fit_round 84 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:48,940 | server.py:165 | evaluate_round 84: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:51,664 | server.py:179 | evaluate_round 84 received 3 results and 0 failures
+accuracy : 0.04225352112676056
+DEBUG flower 2022-09-22 10:19:51,664 | server.py:215 | fit_round 85: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:53,500 | server.py:229 | fit_round 85 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:53,535 | server.py:165 | evaluate_round 85: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:56,258 | server.py:179 | evaluate_round 85 received 3 results and 0 failures
+accuracy : 0.08771929824561403
+DEBUG flower 2022-09-22 10:19:56,258 | server.py:215 | fit_round 86: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:19:59,549 | server.py:229 | fit_round 86 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:19:59,587 | server.py:165 | evaluate_round 86: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:01,943 | server.py:179 | evaluate_round 86 received 3 results and 0 failures
+accuracy : 0.017543859649122806
+DEBUG flower 2022-09-22 10:20:01,943 | server.py:215 | fit_round 87: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:03,842 | server.py:229 | fit_round 87 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:20:03,880 | server.py:165 | evaluate_round 87: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:06,067 | server.py:179 | evaluate_round 87 received 3 results and 0 failures
+accuracy : 0.02702702702702703
+DEBUG flower 2022-09-22 10:20:06,067 | server.py:215 | fit_round 88: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:09,355 | server.py:229 | fit_round 88 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:20:09,390 | server.py:165 | evaluate_round 88: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:12,254 | server.py:179 | evaluate_round 88 received 3 results and 0 failures
+accuracy : 0.04054054054054054
+DEBUG flower 2022-09-22 10:20:12,255 | server.py:215 | fit_round 89: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:15,497 | server.py:229 | fit_round 89 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:20:15,534 | server.py:165 | evaluate_round 89: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:18,392 | server.py:179 | evaluate_round 89 received 3 results and 0 failures
+accuracy : 0.033707865168539325
+DEBUG flower 2022-09-22 10:20:18,392 | server.py:215 | fit_round 90: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:22,025 | server.py:229 | fit_round 90 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:20:22,060 | server.py:165 | evaluate_round 90: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:24,879 | server.py:179 | evaluate_round 90 received 3 results and 0 failures
+accuracy : 0.06666666666666667
+DEBUG flower 2022-09-22 10:20:24,879 | server.py:215 | fit_round 91: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:26,667 | server.py:229 | fit_round 91 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:20:26,703 | server.py:165 | evaluate_round 91: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:29,488 | server.py:179 | evaluate_round 91 received 3 results and 0 failures
+accuracy : 0.03260869565217391
+DEBUG flower 2022-09-22 10:20:29,488 | server.py:215 | fit_round 92: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:32,877 | server.py:229 | fit_round 92 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:20:32,911 | server.py:165 | evaluate_round 92: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:35,456 | server.py:179 | evaluate_round 92 received 3 results and 0 failures
+accuracy : 0.08421052631578947
+DEBUG flower 2022-09-22 10:20:35,456 | server.py:215 | fit_round 93: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:38,986 | server.py:229 | fit_round 93 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:20:39,022 | server.py:165 | evaluate_round 93: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:41,830 | server.py:179 | evaluate_round 93 received 3 results and 0 failures
+accuracy : 0.0641025641025641
+DEBUG flower 2022-09-22 10:20:41,830 | server.py:215 | fit_round 94: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:45,337 | server.py:229 | fit_round 94 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:20:45,372 | server.py:165 | evaluate_round 94: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:47,787 | server.py:179 | evaluate_round 94 received 3 results and 0 failures
+accuracy : 0.047619047619047616
+DEBUG flower 2022-09-22 10:20:47,787 | server.py:215 | fit_round 95: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:51,220 | server.py:229 | fit_round 95 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:20:51,257 | server.py:165 | evaluate_round 95: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:54,081 | server.py:179 | evaluate_round 95 received 3 results and 0 failures
+accuracy : 0.07291666666666667
+DEBUG flower 2022-09-22 10:20:54,082 | server.py:215 | fit_round 96: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:56,952 | server.py:229 | fit_round 96 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:20:56,988 | server.py:165 | evaluate_round 96: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:20:59,631 | server.py:179 | evaluate_round 96 received 3 results and 0 failures
+accuracy : 0.08695652173913043
+DEBUG flower 2022-09-22 10:20:59,631 | server.py:215 | fit_round 97: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:21:02,960 | server.py:229 | fit_round 97 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:21:02,995 | server.py:165 | evaluate_round 97: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:21:05,800 | server.py:179 | evaluate_round 97 received 3 results and 0 failures
+accuracy : 0.1076923076923077
+DEBUG flower 2022-09-22 10:21:05,800 | server.py:215 | fit_round 98: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:21:09,268 | server.py:229 | fit_round 98 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:21:09,301 | server.py:165 | evaluate_round 98: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:21:11,816 | server.py:179 | evaluate_round 98 received 3 results and 0 failures
+accuracy : 0.056338028169014086
+DEBUG flower 2022-09-22 10:21:11,817 | server.py:215 | fit_round 99: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:21:15,196 | server.py:229 | fit_round 99 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:21:15,233 | server.py:165 | evaluate_round 99: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:21:18,095 | server.py:179 | evaluate_round 99 received 3 results and 0 failures
+accuracy : 0.02531645569620253
+DEBUG flower 2022-09-22 10:21:18,095 | server.py:215 | fit_round 100: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:21:19,908 | server.py:229 | fit_round 100 received 3 results and 0 failures
+DEBUG flower 2022-09-22 10:21:19,946 | server.py:165 | evaluate_round 100: strategy sampled 3 clients (out of 3)
+DEBUG flower 2022-09-22 10:21:22,151 | server.py:179 | evaluate_round 100 received 3 results and 0 failures
+accuracy : 0.06153846153846154
+INFO flower 2022-09-22 10:21:22,151 | server.py:144 | FL finished in 583.0895107269753
+INFO flower 2022-09-22 10:21:22,151 | app.py:180 | app_fit: losses_distributed [(1, 4.125577449798584), (2, 4.112760877096525), (3, 4.1046998500823975), (4, 4.035638590653737), (5, 4.039847980846059), (6, 3.993578685904449), (7, 3.909787390381098), (8, 3.97548834885223), (9, 3.9530696092026956), (10, 3.772595378790009), (11, 3.8204506719616096), (12, 3.8521516738935957), (13, 3.716102812025282), (14, 3.6461405028467593), (15, 3.8061764508150935), (16, 3.7627051033816494), (17, 3.6935625299811363), (18, 3.6901054991052504), (19, 3.624714000408466), (20, 3.4522821040863687), (21, 3.469637942314148), (22, 3.575984052511362), (23, 3.7145416648299605), (24, 3.549221827950276), (25, 3.9380147120531865), (26, 3.6951404857635497), (27, 3.6613627350008167), (28, 3.9411804255317238), (29, 3.5943272931235177), (30, 3.703287095166324), (31, 3.539294496911471), (32, 3.7333056131998696), (33, 3.6299883992064235), (34, 3.3521416390195804), (35, 3.919415539258147), (36, 3.6652654475635953), (37, 3.451588587327437), (38, 3.733221892154578), (39, 3.658001227378845), (40, 3.682544420350273), (41, 3.777002106851606), (42, 3.333452763557434), (43, 3.9091843128204347), (44, 3.7498582512585084), (45, 3.721781001162173), (46, 3.853418036682965), (47, 3.5628905329905765), (48, 3.4665168328718705), (49, 3.7200843306148754), (50, 3.7126612439751625), (51, 3.6416431455051197), (52, 3.983172070412409), (53, 3.7228092007015063), (54, 3.9180527478456497), (55, 3.671670978719538), (56, 3.690807838251095), (57, 3.834329807533408), (58, 3.7754539012908936), (59, 3.695655708882346), (60, 3.6487251986627993), (61, 3.8304004806211625), (62, 3.876289696528994), (63, 3.721389692080648), (64, 3.5488879457116127), (65, 3.4977310848236085), (66, 3.7922908276626743), (67, 3.8250146477492812), (68, 3.5512208084561934), (69, 3.7257221100935296), (70, 3.8070065407525924), (71, 3.719696788645502), (72, 3.9100044867571664), (73, 3.5799277016991065), (74, 3.992446252277919), (75, 3.777885359984178), (76, 3.7449877599273065), (77, 3.663123814027701), (78, 3.5534545558772677), (79, 3.672233655419148), (80, 3.608166480064392), (81, 3.5413596703456), (82, 3.879458540961856), (83, 3.9902317198840054), (84, 3.8593319704834843), (85, 3.650531195757682), (86, 3.6373224342078494), (87, 3.6628166888211227), (88, 4.021076279717523), (89, 3.801359273074718), (90, 3.7823536872863768), (91, 3.9417317691056626), (92, 3.814080085252461), (93, 3.710327047568101), (94, 3.9162503045702737), (95, 3.9023351669311523), (96, 3.4814701875050864), (97, 3.5886273237375113), (98, 3.7428141379020583), (99, 3.914699895472466), (100, 3.5417680850395787)]
+INFO flower 2022-09-22 10:21:22,152 | app.py:181 | app_fit: metrics_distributed {'accuracy': [(1, 0.05263157894736842), (2, 0.010752688172043012), (3, 0.05555555555555555), (4, 0.0), (5, 0.07272727272727272), (6, 0.09433962264150944), (7, 0.078125), (8, 0.05063291139240506), (9, 0.06741573033707865), (10, 0.056179775280898875), (11, 0.09859154929577464), (12, 0.08139534883720931), (13, 0.07407407407407407), (14, 0.028985507246376812), (15, 0.0), (16, 0.02197802197802198), (17, 0.0625), (18, 0.05319148936170213), (19, 0.06153846153846154), (20, 0.10638297872340426), (21, 0.14), (22, 0.0), (23, 0.0), (24, 0.08450704225352113), (25, 0.058823529411764705), (26, 0.02666666666666667), (27, 0.0945945945945946), (28, 0.0196078431372549), (29, 0.02857142857142857), (30, 0.011235955056179775), (31, 0.08196721311475409), (32, 0.05263157894736842), (33, 0.0196078431372549), (34, 0.10638297872340426), (35, 0.0410958904109589), (36, 0.05555555555555555), (37, 0.05454545454545454), (38, 0.045454545454545456), (39, 0.0), (40, 0.07547169811320754), (41, 0.04477611940298507), (42, 0.12), (43, 0.014285714285714285), (44, 0.014925373134328358), (45, 0.1044776119402985), (46, 0.0410958904109589), (47, 0.04225352112676056), (48, 0.09090909090909091), (49, 0.0), (50, 0.0625), (51, 0.058823529411764705), (52, 0.03571428571428571), (53, 0.10144927536231885), (54, 0.03125), (55, 0.10606060606060606), (56, 0.04950495049504951), (57, 0.03773584905660377), (58, 0.04), (59, 0.029850746268656716), (60, 0.08695652173913043), (61, 0.09195402298850575), (62, 0.017241379310344827), (63, 0.09210526315789473), (64, 0.078125), (65, 0.18), (66, 0.030927835051546393), (67, 0.041237113402061855), (68, 0.04477611940298507), (69, 0.05970149253731343), (70, 0.05952380952380952), (71, 0.029850746268656716), (72, 0.03529411764705882), (73, 0.02631578947368421), (74, 0.09523809523809523), (75, 0.06153846153846154), (76, 0.04040404040404041), (77, 0.04477611940298507), (78, 0.1232876712328767), (79, 0.04225352112676056), (80, 0.08333333333333333), (81, 0.03076923076923077), (82, 0.011904761904761904), (83, 0.0), (84, 0.04225352112676056), (85, 0.08771929824561403), (86, 0.017543859649122806), (87, 0.02702702702702703), (88, 0.04054054054054054), (89, 0.033707865168539325), (90, 0.06666666666666667), (91, 0.03260869565217391), (92, 0.08421052631578947), (93, 0.0641025641025641), (94, 0.047619047619047616), (95, 0.07291666666666667), (96, 0.08695652173913043), (97, 0.1076923076923077), (98, 0.056338028169014086), (99, 0.02531645569620253), (100, 0.06153846153846154)]}
+INFO flower 2022-09-22 10:21:22,152 | app.py:182 | app_fit: losses_centralized []
+INFO flower 2022-09-22 10:21:22,152 | app.py:183 | app_fit: metrics_centralized {}

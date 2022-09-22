@@ -93,7 +93,7 @@ def main(DEVICE):
         def fit(self, parameters, config):
             self.set_parameters(parameters)
             trainloader, _ = load_data()
-            train(net, trainloader, epochs=20)
+            train(net, trainloader, epochs=30)
             return self.get_parameters(config={}), len(trainloader.dataset), {}
 
         def evaluate(self, parameters, config):
