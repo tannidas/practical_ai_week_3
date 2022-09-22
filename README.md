@@ -8,7 +8,7 @@ Inside the "Centralized_to_Federated" folder run "client.py" in one terminal and
 
 **Task-2**:
 
-Inside the "Femnist" folder run "client.py" in one terminal and run "server.py" in different terminal. This task is for "FEMNIST Dataset". Test was done for num_of_rounds = 100 and epochs = 50. 
+Inside the "Femnist" folder run "client.py" in one terminal and run "server.py" in different terminal. This task is for "FEMNIST Dataset". Test was done for num_of_rounds = 100 and epochs = 30. 
 
 **Result**:
 
